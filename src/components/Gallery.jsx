@@ -16,7 +16,6 @@ function Gallery() {
   });
 
   const result = response?.data?.results;
-  console.log(result);
 
   if (response.isLoading) {
     return (

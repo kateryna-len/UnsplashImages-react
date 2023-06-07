@@ -7,7 +7,6 @@ function SearchForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const result = e.target.elements.search.value;
-    console.log(456, result);
     if (!result) return;
     setSearch(result);
   };
